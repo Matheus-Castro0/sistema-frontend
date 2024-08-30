@@ -1,0 +1,20 @@
+button{
+    width: 100%
+}
+
+.container{
+    margin: auto 15px;
+}
+
+.box{
+    width:350px
+}
+
+.caixatxt{
+    width:100%
+}
+
+.esqueceu-senha{
+    float:right;
+    font-size: 12px
+}

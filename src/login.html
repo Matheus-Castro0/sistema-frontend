@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Tela de Login</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../logo.png">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <form>
+                <h1>Faça seu Login</h1>
+
+                <img height="100" src="../logo.png" />
+
+                <br />
+
+                <label for="txtEmail">Digite seu E-Mail:</label><input type="email" class="caixatxt" id="txtEmail" name="email" />
+
+                <br />
+
+                <label for="txtSenha">Digite sua Senha:</label><input type="password" class="caixatxt" id="txtSenha" name="senha" />
+
+                <a class="esqueceu-senha" href="esqueceu-a-senha.html">Esqueceu sua senha?</a>
+
+                <br />
+
+                <button id="botao">Fazer Login</button>
+            </form>
+
+            <span id="spnErro" class="erro"></span>
+
+            <br />
+
+            <a class="cadastre-se" href="cadastro.html">Não tem uma conta? Cadastre-se.</a>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>

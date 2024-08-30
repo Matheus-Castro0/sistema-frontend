@@ -1,0 +1,52 @@
+label {
+    display: inline-block;
+    margin: 5px 0 0;
+}
+
+.row{
+    margin:10px;
+    display:block
+}
+
+.input-field{
+    width:280px
+}
+
+.right{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.left{
+    margin-right:0px;
+    margin-top:15px
+}
+
+.box {
+    width:300px
+}
+
+button {
+    width: 100%
+}
+
+/*Essa fun��o modifica apenas os dispositivos que possuem a resolu��o maior que 768px*/
+@media only screen and (min-width:768px){
+    .row{
+        display:flex;
+        margin:10px 0
+    }
+
+    .right{
+        margin-left: 40px;
+    }
+
+    .box{
+        width:720px
+    }
+    
+    .input-field {
+        width: 340px;
+        height: 38px
+    }
+}
